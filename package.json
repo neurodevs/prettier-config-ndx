@@ -1,7 +1,24 @@
 {
-  "name": "prettier-config-ndx",
+  "name": "@neurodevs/prettier-config-ndx",
   "version": "0.0.1",
-  "repository": "https://github.com/neurodevs/prettier-config-ndx.git",
+  "description": "Prettier configuration for the ndx (Neurodevs) ecosystem",
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "tdd",
+    "prettier"
+  ],
+  "license": "MIT",
+  "author": "Eric Yates <hello@ericthecurious.com>",
+  "homepage": "https://github.com/neurodevs/prettier-config-ndx",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neurodevs/prettier-config-ndx.git"
+  },
+  "bugs": {
+    "url": "https://github.com/neurodevs/prettier-config-ndx/issues"
+  },
+  "main": "build/index.js",
   "scripts": {
     "build.ci": "yarn run build.tsc && yarn run build.resolve-paths && yarn run lint",
     "build.dev": "yarn run build.tsc --sourceMap ; yarn run resolve-paths.lint",
@@ -24,6 +41,7 @@
     "watch.rebuild": "yarn run clean.all && yarn install && yarn run watch.build.dev",
     "watch.tsc": "tsc -w"
   },
+  "dependencies": {},
   "devDependencies": {
     "@sprucelabs/resolve-path-aliases": "^4.0.18",
     "@types/node": "^25.3.0",
@@ -35,7 +53,6 @@
     "tsc-watch": "^7.2.0",
     "typescript": "^5.9.3"
   },
-  "description": "Prettier configuration for the ndx (Neurodevs) ecosystem",
   "skill": {
     "namespace": "prettier-config-ndx"
   }

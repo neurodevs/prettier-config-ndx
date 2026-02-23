@@ -2,6 +2,7 @@
   "name": "@neurodevs/prettier-config-ndx",
   "version": "0.0.1",
   "description": "Prettier configuration for the ndx (Neurodevs) ecosystem",
+  "type": "module",
   "keywords": [
     "nodejs",
     "typescript",

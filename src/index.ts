@@ -1,1 +1,1 @@
-//exports go here
+export { default } from './prettier.config.mjs'

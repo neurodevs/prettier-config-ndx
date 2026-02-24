@@ -1,3 +1,3 @@
-import eslintConfigSpruce from 'eslint-config-spruce'
+import esConfigNdx from '@neurodevs/eslint-config-ndx'
 
-export default eslintConfigSpruce
+export default esConfigNdx

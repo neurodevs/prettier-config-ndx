@@ -4,4 +4,12 @@ export default {
     tabWidth: 4,
     trailingComma: 'es5',
     semi: false,
+    overrides: [
+        {
+            files: ['**/*.json'],
+            options: {
+                tabWidth: 2,
+            },
+        },
+    ],
 }

@@ -1,7 +1,0 @@
-export default {
-    singleQuote: true,
-    useTabs: false,
-    tabWidth: 4,
-    trailingComma: 'es5',
-    semi: false,
-}

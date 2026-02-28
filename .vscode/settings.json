@@ -1,6 +1,7 @@
 {
   "debug.node.autoAttach": "on",
-  "debug.javascript.unmapMissingSources": true,
+  "git.ignoreLimitWarning": true,
+  "javascript.validate.enable": false,
   "files.watcherExclude": {
     "**/.git/objects/**": true,
     "**/.git/subtree-cache/**": true,
@@ -12,13 +13,12 @@
     "**/node_modules/**": true,
     "**/.next/**": true
   },
-  "git.ignoreLimitWarning": true,
-  "javascript.preferences.importModuleSpecifier": "relative",
-  "javascript.validate.enable": false,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "always"
   },
   "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.maxTokenizationLineLength": 20000000,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -36,11 +36,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
   },
-  "[handlebars]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "eslint.enable": false,
+  "eslint.enable": true,
   "eslint.useFlatConfig": true,
   "eslint.validate": [
     "javascript",
@@ -49,6 +45,8 @@
     "typescriptreact"
   ],
   "eslint.workingDirectories": ["./"],
+  "debug.javascript.unmapMissingSources": true,
+  "javascript.preferences.importModuleSpecifier": "relative",
   "typescript.preferences.importModuleSpecifier": "relative",
   "typescript.tsdk": "node_modules/typescript/lib",
   "typescript.validate.enable": true,

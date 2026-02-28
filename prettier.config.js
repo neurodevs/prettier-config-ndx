@@ -1,3 +1,3 @@
-import prettierConfigNdx from '@neurodevs/prettier-config-ndx'
+import prettierConfigNdx from './src/prettier.config.js'
 
 export default prettierConfigNdx

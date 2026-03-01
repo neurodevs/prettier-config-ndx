@@ -1,6 +1,6 @@
 {
   "name": "@neurodevs/prettier-config-ndx",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Prettier config for the Neurodevs ecosystem",
   "type": "module",
   "keywords": [

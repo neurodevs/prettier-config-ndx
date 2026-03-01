@@ -6,7 +6,22 @@ export default {
     semi: false,
     overrides: [
         {
-            files: ['**/*.json'],
+            files: [
+                '**/*.json',
+                '**/*.jsonc',
+                '**/*.yaml',
+                '**/*.yml',
+                '**/*.html',
+                '**/*.xml',
+                '**/*.css',
+                '**/*.scss',
+                '**/*.sass',
+                '**/*.less',
+                '**/*.md',
+                '**/*.mdx',
+                '**/*.graphql',
+                '**/*.gql',
+            ],
             options: {
                 tabWidth: 2,
             },
